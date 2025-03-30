@@ -18,19 +18,30 @@ Designed a data structure that follows the constraints of a Least Recently Used 
    the capacity from this operation, evict the least recently used key.  # put is a method of lrucache class
    
   2)create Doubly linked class which contain:
+  
      i)value(int)
+     
      ii)Next node
+     
      iii)previous node
+     
   3)create a object for lrucache class by passing capacity.
+  
   4)perform put operation on Lrucache by placing key in doubly linked list.
+  
     i)if hash map is null and  length of hash map is less then capacity then create a doubly linked node as node1 by passing key value.initialize 
     head<=node1,tail<=node1.
+    
     ii)if hash map is not null and length of hash map is less then capacity and  there is no key present in hash map then create a doubly linked node as node1 by 
     passing key value.initialize node1.next<=head,head.previous<=node1,head<=node1.
+    
     iii)if length of hash map is greater then capacity and  there is no key present in hash map then perform tail=tail.previous,tail.next=null.and then create a 
     doubly linked node as node1 by passing key value.initialize node1.next<=head,head.previous<=node1,head<=node1.
+    
   5)perform get key value operation on Lrucache.
+  
      i)if key is not present in hash map.return null.
+     
      2)if key present in hash map then return key value.initialize this key as head.
      
   # **RESULT/USES**:
