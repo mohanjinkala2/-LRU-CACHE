@@ -15,7 +15,7 @@ Designed a data structure that follows the constraints of a Least Recently Used 
      ii)int get(int key) Return the value of the key if the key exists, otherwise return -1. # get is a method of lrucache class
      
      iii)void put(int key, int value) Update the value of the key if the key exists. Otherwise, add the key-value pair to the cache. If the number of keys exceeds 
-   the capacity from this operation, evict the least recently used key.  # put is a method of lrucache class
+     the capacity from this operation, evict the least recently used key.  # put is a method of lrucache class
    
   2)create Doubly linked class which contain:
   
